@@ -41,11 +41,13 @@ ol,
 menu {
   margin: 0;
   padding: 0;
+  padding-left: 1rem;
 }
 
 ul,
 menu {
-  list-style: none;
+  list-style: disc;
+  padding-left: 1rem;
 }
 
 li {
@@ -138,7 +140,7 @@ nav ul {
 h1 {
   margin-top: 0.5rem;
   margin-bottom: 0;
-  font-size: 1.5625rem;
+  font-size: 3rem;
 }
 
 h1 a {
@@ -358,8 +360,3 @@ ul.list-with-dot {
   padding-left: 1rem;
   list-style-type: disc;
 }
-
-ol {
-  padding-left: 1rem; 
-}
-
